@@ -12,7 +12,6 @@ h1, h2, h3, h1>a, h2>a, h3>a{
 }
 
 
-
 h1 {
     font-size: 60px;
 }
@@ -29,11 +28,32 @@ h3 {
     font-family: Bebas Neue;
 }
 
+.BebasNeueLight {
+    font-family: Bebas Neue Light;
+}
+
+.Pannetje_10 {
+    font-family: pannetje_10;
+}
+
 body {
-/*    width: 100%;*/
-/*    max-width: 960px;*/
     margin: 0 auto;
     background-color: #eeeeee;
+}
+
+.margin_0 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.purple_bg {
+    background-color: #2e3192;
 }
 
 .main {
@@ -41,16 +61,6 @@ body {
 }
 
 .section {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    margin-left: 1em;
-    
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    padding-left: 1em;
-    
     font-family: Roboto;
     background-color: #ffffff;
     text-align: center;
@@ -77,8 +87,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .left {
@@ -89,22 +98,8 @@ body {
     text-align: right;
 }
 
-.color-grey {
-    color: #A9A9A9;
-}
-
-.color-blue {
-    color: #004A8F;
-}
-
-.post {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.line {
-    margin-right: 1em;
-    margin-left: 1em;
+.center {
+    text-align: center;
 }
 
 .align-middle {
@@ -126,6 +121,12 @@ body {
     white-space: nowrap; /* This is required unless you put the helper span closely near the img */
 }
 
+.line {
+    margin-right: 1em;
+    margin-left: 1em;
+    border-color: #2e3192;
+}
+
 .helper {
     display: inline-block;
     height: 100%;
@@ -138,3 +139,20 @@ body {
     border: 1px solid red;
 }
 
+/*ID are below*/
+
+#ep_lug {
+    font-size: 100px;
+    margin-top: 0.15em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bottom-buttons {
+    font-size: 20px;
+}
+
+#legal {
+    font-size: 12px;
+}
