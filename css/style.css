@@ -39,6 +39,9 @@ h3 {
 body {
     margin: 0 auto;
     background-color: #eeeeee;
+    background-image: url("../images/tile_bg.jpg");
+    background-repeat: repeat;
+    background-size: 800px;
 }
 
 .margin_0 {
@@ -72,9 +75,9 @@ body {
     object-fit: cover;
 }
 
-.img-140 {
-    width: 200px;
-    height: 200px;
+.img-150 {
+    width: 150px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -145,18 +148,23 @@ body {
     border: 1px solid red;
 }
 
+.bottom-buttons {
+    font-size: 20px;
+}
+
+
 /*ID are below*/
 
 #ep_lug {
-    font-size: 100px;
-    margin-top: 0.15em;
+    font-size: 90px;
+    margin-top: 0.1em;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
 }
 
-.bottom-buttons {
-    font-size: 20px;
+#top-button {
+    margin-bottom: 10px;
 }
 
 #connect {
