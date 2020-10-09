@@ -1,5 +1,5 @@
 # PATH = input("Enter the path to your images")
-PATH = "../collaborations/Secret_Santa_2019/images/"
+PATH = "../events/biocup2017/images/"
 import os 
 
 # Check to make sure the path exists and is writeable
@@ -26,7 +26,7 @@ for image_path in images :
 
 	img.thumbnail((2000, 400))
 	img.save(PATH + image_path[:-4] + '_thumb.jpg')
-	print("<a href='images/" + image_path + "' data-lightbox='mygallery'><img src='images/"+image_path[:-4] + '_thumb.jpg' +"'></a>")
+	print("<a href='images/" + image_path + "'  data-lightbox='mygallery' data-title=''><img src='images/"+image_path[:-4] + '_thumb.jpg' +"'></a>")
 
 
 # todo pass in a flickr gallery url and get all the images from it

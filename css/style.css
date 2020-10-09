@@ -18,11 +18,15 @@ h1 {
 
 h2 {
     font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
 
 h3 {
     font-size: 26px;
 }
+
+
 
 .BebasNeue {
     font-family: Bebas Neue;
@@ -55,8 +59,16 @@ body {
     color: #ffffff;
 }
 
+.color-purple {
+    color: #2e3192;
+}
+
 .purple_bg {
     background-color: #2e3192;
+}
+
+.white_bg {
+    background-color: #ffffff;
 }
 
 .main {
@@ -153,7 +165,22 @@ body {
 }
 
 
+.curr_tab {
+    background-color: white;
+    padding: 9px 15px;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+}
+
+.button {
+    padding: 9px 15px;
+    font-family: Bebas Neue Light;
+}
 /*ID are below*/
+
+.button.h3:hover {
+    font-family: Bebas Neue;
+}
 
 #ep_lug {
     font-size: 90px;
@@ -174,3 +201,5 @@ body {
 #legal {
     font-size: 12px;
 }
+
+
