@@ -6,15 +6,19 @@
 
 
 <head>
-	<title>EP-LUG</title>
+    <title>EP-LUG</title>
     <link href="css/unsemantic-grid-responsive-tablet.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="css/slideshow.css" type="text/css" rel="stylesheet" />
+    <link href="css/gallery.css" type="text/css" rel="stylesheet" />
+    <link href="css/lightbox.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/img_slider.css" type="text/css" rel="style" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <link rel="icon" href="images/ep_logo.png">
 </head>
 
 <body>
-    <!-- Website Header -->
+<!-- Website Header -->
     <div class="grid-container">
         <section class="grid-100 purple_bg ">
 
@@ -27,53 +31,82 @@
                 <h3 class="color-white center margin_0 BebasNeueLight" >A LEGO Character Creator Community</h3>
             </div>
 
+
             <div class="grid-100">
-                <div class="grid-25 button curr_tab">
-                    <h3 class="margin_0 center"><a href="#about" class="color-purple BebasNeue">About</a></h3>
+
+<!-- Buttons for the top of the page -->
+                <div class="grid-25">
+                    <div class="dropdown">
+                        <button class="dropbtn_curr">
+                            <h3 class="margin_0 center"><a href="#about" class="">About</a></h3>
+                        </button>
+                    </div>
                 </div>
-                <div class="grid-25 button">
-                    <h3 class="margin_0 center"><a href="collaborations/" class="color-white BebasNeueLight">Collaborations</a></h3>
+
+                <div class="grid-25">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <h3 class="margin_0 center"><a href="collaborations/" class="">Collaborations</a></h3>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="dvday/">DV-Day</a>
+                            <a href="prototype_visorak/">Prototype Visorak</a>
+                            <a href="monster_project">LEGO Monster Prject</a>
+                            <a href="friends/">The Friends We Made Along The Way</a>
+                            <a href="Secret_Santa_2019/">Secret Santa 2019</a>
+                            <a href="Crab_collab/">Crab Collab</a>
+                            <a href="Rahi_Archives/">Rahi Archives</a>
+                            <a href="Secret_Santa_2018">Secret Santa 2018</a>
+
+                        </div> 
+                    </div>
                 </div>
-                <div class="grid-25 button">
-                    <h3 class="margin_0 center"><a href="events/" class="color-white BebasNeueLight">Events</a></h3>
+
+                <div class="grid-25">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <h3 class="margin_0 center"><a href="events/" class="color-white BebasNeueLight">Events</a></h3>
+                        </button>
+                    </div>
                 </div>
-                <div class="grid-25 button">
-                    <h3 class="margin_0 center"><a href="photos/" class="color-white BebasNeueLight">Gallery
-                    </a></h3>
+
+                <div class="grid-25">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <h3 class="margin_0 center"><a href="photos/" class="color-white BebasNeueLight">Gallery</a></h3>
+                        </button>
+                    </div>
                 </div>
-            </div>
         </section>
 
-        <!-- Main Section of site -->
+<!-- Main Section of site -->
         <section class="grid-100 main ">
             <div class="prefix-10 suffix-10 grid-80">
 
                 <script src="js/slideshow.js"></script>
                 <!-- Slideshow container -->
-                <div class="slideshow-container">
+                <div class="slideshow-container gallery_slideshow">
 
                   <!-- Full-width images with number and caption text -->
                   <div class="mySlides fade">
                     <div class="numbertext">1 / 4</div>
-                    <img src="images/ep-lug-3.jpg" style="width:100%">
-<!--                     <div class="text">Caption Text</div> -->
+                    <a href="images/ep-lug-3.jpg" data-lightbox='about'><img src='images/ep-lug-3.jpg' style="width:100%"></a>
                   </div>
 
                   <div class="mySlides fade">
                     <div class="numbertext">2 / 4</div>
-                    <img src="images/ep-lug-2.jpg" style="width:100%">
-<!--                     <div class="text">Caption Two</div> -->
+                    <a href="images/ep-lug-2.jpg" data-lightbox='about'><img src='images/ep-lug-2.jpg' style="width:100%"></a>
                   </div>
 
                   <div class="mySlides fade">
                     <div class="numbertext">3 / 4</div>
-                    <img src="images/ep-lug-4.jpg" style="width:100%">
+                    <a href="images/ep-lug-4.jpg" data-lightbox='about'><img src='images/ep-lug-4.jpg' style="width:100%"></a>
 <!--                     <div class="text">Caption Three</div> -->
                   </div>
 
                   <div class="mySlides fade">
                     <div class="numbertext">4 / 4</div>
-                    <img src="images/ep-lug-1.jpg" style="width:100%">
+                    <a href="images/ep-lug-1.jpg" data-lightbox='about'><img src='images/ep-lug-1.jpg' style="width:100%"></a>
 <!--                     <div class="text">Caption Text</div> -->
                   </div>
 
@@ -87,26 +120,22 @@
 
                 <!-- The dots/circles -->
                 <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot active" onclick="currentSlide(1)"></span>
                   <span class="dot" onclick="currentSlide(2)"></span>
                   <span class="dot" onclick="currentSlide(3)"></span>
                   <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
 
+            <!-- About section -->
             <div class="grid-100">
                 <h2 class="margin_0"><a name="about" class="margin_0">About</a></h2>
                 <p>EP-LUG is an international, EU-based LEGO User Group focusing on Constraction mocing. The constraction umbrella includes Bionicle and Hero-Factory sets, as well as some more obscure themes such as Galidor or Knights' Kingdom. Our members like to push the boundaries of what is possible in the medium to create memorable creatures and characters. </p>
 
                 <p>While our LUG is based primarily in the EU, we have members all around the world who share a love for building awesome things. With EP-LUG we want to share our love for building with our EU community. To do this, we organize exhibition <a href="events/">events</a> as well as participate in larger LEGO conventions throughout the year. Because we also have international members we have a large online presence. It's here that our members participate in numerous builder <a href="collaborations">collaborations</a> throughout the year. These collaborations serve to build excitement and spread inspiration to younger builders just starting out and are a great way to keep the interest in LEGO character-building high even with the absence of new official LEGO constraction themes.</p>
-            </div>
-
-            
+            </div>  
         </section>
         
-
-
-
         <!-- Website Footer -->
         <section class="grid-100 main">
 
