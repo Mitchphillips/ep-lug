@@ -26,3 +26,7 @@
 .small_gallery img:hover {
 	transform: scale(1.02);
 }
+
+.gallery_slideshow {
+	margin: 10px 50px;
+}
