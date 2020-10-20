@@ -1,0 +1,13 @@
+<div class="grid-100 ">
+    <h2 class="center color-white">Dictionnaire Infernal</h2>
+
+    <div class="gallery center">
+        <a href=https://live.staticflickr.com/65535/48992612642_23f389ebbe_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/144632612@N05/48992612642"> King Asmodeus by [VB]</a>'><img src='https://live.staticflickr.com/65535/48992612642_23f389ebbe_w.jpg'></a>
+        <a href=https://live.staticflickr.com/65535/48991734318_0e87fa20fb_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/79979525@N04/48991734318"> Chancellor Adramelech by ▷Cezium◁</a>'><img src='https://live.staticflickr.com/65535/48991734318_0e87fa20fb_w.jpg'></a>
+        <a href=https://live.staticflickr.com/65535/48992245651_7f361f4aec_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/10267753@N03/48992245651"> President Buer by optimus-convoy</a>'><img src='https://live.staticflickr.com/65535/48992245651_7f361f4aec_w.jpg'></a>
+        <a href=https://live.staticflickr.com/65535/48992323581_2c5a279649_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/98795587@N02/48992323581"> Prince Beelzebub by Anthony (The Secret Walrus) Wilson</a>'><img src='https://live.staticflickr.com/65535/48992323581_2c5a279649_w.jpg'></a>
+        <a href=https://live.staticflickr.com/65535/48992453497_48144d9a60_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/93688595@N06/48992453497"> Prince Stolas by Djokson</a>'><img src='https://live.staticflickr.com/65535/48992453497_48144d9a60_w.jpg'></a>
+        <a href=https://live.staticflickr.com/65535/48991800468_79c46fc576_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/76895119@N03/48991800468"> Marquis Cerbere by JakTheMad</a>'><img src='https://live.staticflickr.com/65535/48991800468_79c46fc576_w.jpg'></a>
+        <a href=https://live.staticflickr.com/65535/48992610762_d67a4934cf_b.jpg data-lightbox='72157713435554116' title='<a href="https://www.flickr.com/photos/144632612@N05/48992610762"> Observateur Azazel by [VB]</a>'><img src='https://live.staticflickr.com/65535/48992610762_d67a4934cf_w.jpg'></a>
+    </div>
+</div>
